@@ -1,10 +1,10 @@
-📌 Smart Todo – Laravel 12 Task Manager
+## 📌 Smart Todo – Laravel 12 Task Manager
 
 A clean, simple, and powerful Task Management System built with Laravel 12 and Bootstrap 5.
 Smart Todo lets users create tasks, set priorities, receive reminders, get notifications, and manage productivity—all inside a minimal, user-friendly interface.
 
-🚀 Features
-📝 Task Management
+## 🚀 Features
+### 📝 Task Management
 
 Create, edit, update, delete tasks
 
@@ -16,7 +16,7 @@ Due date + Reminder date (reminder_at)
 
 Pagination included
 
-🔎 Search & Filters
+## 🔎 Search & Filters
 
 Search by title or description
 
@@ -30,7 +30,7 @@ High Priority
 
 Today’s tasks
 
-🔔 Notifications System
+## 🔔 Notifications System
 
 Laravel Database Notifications
 
@@ -44,13 +44,13 @@ Each notification links to its task
 
 Reminder notifications triggered automatically
 
-🌙 Dark Mode
+## 🌙 Dark Mode
 
 Dark/Light theme toggle
 
 Saved to user preference using Bootstrap classes
 
-🔐 User Authentication + Roles
+## 🔐 User Authentication + Roles
 
 Laravel Breeze authentication
 
@@ -64,7 +64,7 @@ User (role_id = 2)
 
 Role-based access using custom middleware
 
-⏰ Task Reminder Scheduler
+## ⏰ Task Reminder Scheduler
 
 Automatic reminders using Laravel Scheduler:
 
@@ -78,7 +78,7 @@ Sends a notification
 
 Marks reminder as sent
 
-🏗️ Tech Stack
+## 🏗️ Tech Stack
 
 Laravel 12
 
@@ -88,16 +88,13 @@ MySQL
 
 Laravel Breeze
 
-Chart.js (optional)
+Chart.js
 
 Laravel Notifications
 
 Scheduler / Cron
 
-⚙️ Installation
-Clone the repository
-git clone https://github.com/yullu/smart_todo.git
-cd smart_todo
+## ⚙️ Installation
 
 Install dependencies
 composer install
@@ -116,27 +113,15 @@ php artisan migrate
 Start application
 php artisan serve
 
-📬 Running the Reminder Scheduler
+## 📬 Running the Reminder Scheduler
 Temporarily (testing)
 php artisan schedule:work
 
-Permanently (Linux cronjob)
-
-Run:
-
-crontab -e
-
-
-Add:
-
-* * * * * php /path-to-project/artisan schedule:run >> /dev/null 2>&1
-
-
-🤝 Contribution
+## 🤝 Contribution
 
 Pull requests are welcome!
 Feel free to open issues for suggestions or improvements.
 
-📝 License
+## 📝 License
 
 This project is open-source under the MIT License.
